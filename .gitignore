@@ -1,0 +1,4 @@
+vault_activity.log
+*.log
+*.exe
+.vscode/
