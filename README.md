@@ -20,6 +20,26 @@ A high-security Hardware Wallet simulation written in C++. This project demonstr
 ## 🚀 How to Run
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/SecureVault-Project.git](https://github.com/your-username/SecureVault-Project.git)
+   Bash
+   git clone [https://github.com/embeddedbacteria/SecureVault-Project.git](https://github.com/embeddedbacteria/SecureVault-Project.git)
    cd SecureVault-Project
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------   
+Compile the project:
+
+Bash
+g++ -I include src/*.cpp -o SecureVault.exe -ladvapi32
+Run the executable:
+
+Bash
+./SecureVault.exe
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📜 Audit Log Example
+The system generates a log entry for every significant event: [2026-01-30 23:55:10] [DESKTOP-R4L8K92\user] SUCCESS: Wallet unlocked successfully. [2026-01-30 23:56:05] [DESKTOP-R4L8K92\user] CRITICAL: Self-destruct triggered! Master seed wiped.
+
+⚠️ Disclaimer
+This is a simulation for educational purposes and should not be used to store real private keys or cryptocurrency.
+
+👤 Author
+Ugur YILDIRIM - https://github.com/embeddedbacteria
